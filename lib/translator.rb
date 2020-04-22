@@ -27,8 +27,12 @@ end
 
 
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(file, eng_emoticon)
+  result = "Sorry, that emoticon was not found"
+  library = load_library(file)
+  
+  result
+
 end
 
 
